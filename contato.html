@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - Barbearia Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="logo.png" alt="Logo da Barbearia"></h1>
+            <nav>
+                <!-- Usamos a tag nav de navegação para conseguir marcar os itens de uma só vez no css e 
+                  também para ajudar a organizar os itens na página -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Ex: João da silva ">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@aqui.com">
+
+            <label for="Telefone">Telefone</label>
+            <input type="tel" id="Telefone" class="input-padrao" required placeholder="(xx)x xxxx-xxxx">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="texto" id="mensagem" cols="70" rows="10" placeholder="Olá,eu gostaria ..."></textarea>
+
+            <div class="alternativas">
+                <p>Como você prefere receber informações ?</p>
+                <label for="radio-email"><input type="radio" name="contato" id="email-radio">
+                    Email</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" id="tel-radio">
+                    Telefone</label>
+
+                <label for="radio-mensagem"><input type="radio" name="contato" id="whatsapp" checked >
+                    Whatsapp</label>
+            </div>
+
+            <div class="opcoes">
+                <p>Qual horário gostaria de ser atendido ? </p>
+                <select name="opcoes" id="">
+                    <option>Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </div>
+
+
+            <label class="criativo"> <input type="checkbox" checked >Gostaria de receber informações por Email ? </label>
+            <input type="submit" value="Enviar Formulário" class=" enviar ">
+
+            <div class="tabela">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</td>
+                                <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>08h -19h</td>
+                        </tr>
+
+                        <tr>
+                            <td>Quarta</td>
+                            <td>08h-19h</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sexta</td>
+                            <td>08h -19h</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+        </form>
+    </main>
+    <footer>
+        <img src="logo-branco.png " alt="Logo da Barbearia ">
+
+        <p class="cop "> &copy; Copyright 2019</p>
+
+    </footer>
+
+</body>
+</hmtl>
+</hmtl>
+
+<!--No lugar do DIV eu posso utilizar Fieldset e dentro do fieldset eu utilizo legend no lugar de P
+Essa tag vai mostar uma coluna única 
+<tr>
+    <td colspan="5">Rio de Janeiro</td> 
+</tr>
+-->

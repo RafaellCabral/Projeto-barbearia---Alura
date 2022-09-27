@@ -1,0 +1,168 @@
+        header {
+            background: #bbbbbb;
+            padding: 20px 0;
+        }
+        
+        .caixa {
+            position: relative;
+            width: 940px;
+            margin: 0 auto;
+        }
+        
+        nav {
+            position: absolute;
+            top: 100px;
+            right: 0;
+        }
+        
+        nav li {
+            display: inline;
+            margin: 0 0 0 15px;
+        }
+        
+        nav a {
+            text-transform: uppercase;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+        
+        .produtos {
+            width: 940px;
+            margin: 0 auto;
+            padding: 50px 0;
+        }
+        
+        .produtos li {
+            display: inline-block;
+            text-align: center;
+            width: 30%;
+            vertical-align: top;
+            margin: 0 1.5%;
+            padding: 30px 20px;
+            box-sizing: border-box;
+            border: 1.5px solid black;
+            border-radius: 6px;
+        }
+        
+        .produtos li:hover {
+            border-color: red;
+            font-size: 30px;
+        }
+        
+        .produtos li:active {
+            color: blue;
+        }
+        
+        .produtos li:hover h2 {
+            font-size: 33px;
+        }
+        
+        .produtos h2 {
+            font-size: 25px;
+            font-weight: bold;
+        }
+        
+        .descricao {
+            font-size: 20px;
+        }
+        
+        .precos {
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        
+        footer {
+            text-align: center;
+            background: url("bg.jpg");
+            padding: 50px 0px;
+        }
+        
+        .cop {
+            color: white;
+            margin: 15px 0px;
+            font-size: 12px;
+        }
+        
+        main {
+            width: 940px;
+            margin: 0 auto;
+        }
+        
+        form {
+            margin: 40px 0;
+        }
+        
+        form label,
+        form p {
+            display: block;
+            font-size: 22px;
+            margin: 0 0 10px;
+        }
+        
+        .input-padrao {
+            display: block;
+            margin: 0 0 25px;
+            padding: 10px 30px;
+            width: 50%;
+        }
+        
+        .criativo {
+            margin: 25px 0;
+        }
+        
+        .alternativas p {
+            margin: 25px 0;
+        }
+        
+        .opcoes p {
+            margin: 25px 0;
+        }
+        
+        .enviar {
+            width: 45%;
+            padding: 15px 0;
+            background-color: rgb(227, 255, 86);
+            border: none;
+            font-weight: bold;
+            font-size: 17px;
+            border-radius: 11px;
+            transition: 0.5s all;
+            cursor: pointer;
+        }
+        
+        .enviar:hover {
+            background-color: rgb(234, 248, 34);
+            transform: scale(1.2);
+        }
+        
+        table {
+            margin: 35px 10px;
+        }
+        
+        thead {
+            background-color: bisque;
+            color: black;
+            font-weight: bold;
+        }
+        
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px 10px;
+        }
+        /* a tag transform vai aumentar o item na pagina
+        /* a tag tranbsfor rotate vai fazer o item inclinar na pagina , eu escolho quanto ele vai inclinar , tem q ser em deg
+    /* inline deixa os itens lado a lado no display
+/* inline deixa os itens lado a lado no display
+/* inline deixa os itens lado a lado no display
+/* inline deixa os itens lado a lado no display
+/* inline deixa os itens lado a lado no display
+/* inline deixa os itens lado a lado no display
